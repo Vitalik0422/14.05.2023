@@ -1,0 +1,53 @@
+li {
+    list-style-type: none;
+}
+
+.mainHead {
+    width: 100%;
+    height: 72px;
+    background: rgb(158, 228, 243);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.barMenu {
+    width: 300px;
+    height: 600px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.mainPage {
+    width: 100%;
+    height: 600px;
+    border: 1px solid black;
+    box-sizing: border-box;
+
+    .root {
+        .article {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            input {
+                width: 300px;
+                height: 24px;
+            }
+
+            textarea {
+                resize: none;
+                width: 300px;
+                height: 400px;
+            }
+
+            select {
+                width: 300px;
+            }
+        }
+    }
+}
