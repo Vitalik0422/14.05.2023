@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,23 +9,22 @@
     <link rel="stylesheet" href="./styles/main.css">
     <title>Document</title>
 </head>
-
 <body>
     <%- include('header'); -%>
     <main>
         <div class="barMenu">
             <ul class="navigation">
-                <li class="author">Створити автора</li>
+                <li class="author"><a href="/admin">Створити автора</a></li>
                 <li class="article">Створити сттатю</li>
                 <li class="articlelist"><a href="/user">Переглянути збережене</li></a>
             </ul>
         </div>
         <div class="mainPage">
+            <button class="prevBtn">Попередня</button>
+            <button class="nextBtn">Настпуна</button>
             <div class="root"></div>
-            <div class="listAuthor"></div>
         </div>
     </main>
-    <script src="./js/adminscript.js"></script>
+    <script src="./js/userscript.js"></script>
 </body>
-
 </html>

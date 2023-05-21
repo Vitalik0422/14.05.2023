@@ -28,6 +28,9 @@ main {
   border: 1px solid black;
   box-sizing: border-box;
 }
+.mainPage .root {
+  padding: 30px;
+}
 .mainPage .root .article {
   display: flex;
   flex-direction: column;
@@ -44,4 +47,18 @@ main {
 }
 .mainPage .root .article select {
   width: 300px;
+}
+.mainPage .root .article button {
+  width: 100px;
+}
+.mainPage .root .authorArticle {
+  height: 70px;
+  font-size: 30px;
+}
+.mainPage .root .nameArticle {
+  height: 70px;
+  font-size: 30px;
+}
+.mainPage .root .textArticle {
+  height: 100%;
 }/*# sourceMappingURL=main.css.map */

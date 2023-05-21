@@ -29,6 +29,8 @@ main {
     box-sizing: border-box;
 
     .root {
+        padding: 30px;
+        
         .article {
             display: flex;
             flex-direction: column;
@@ -48,6 +50,20 @@ main {
             select {
                 width: 300px;
             }
+            button{
+                width: 100px;
+            }
+        }
+        .authorArticle {
+            height: 70px;
+            font-size: 30px;
+        }
+        .nameArticle {
+            height: 70px;
+            font-size: 30px;
+        }
+        .textArticle {
+            height: 100%;
         }
     }
 }
